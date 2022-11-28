@@ -1,14 +1,10 @@
 // code your solution here
 
 function superbowlWin(records) {
-    let winYear;
     records.find(function (record) {
         if (record.result === "W"){
-            console.log(record.year);
-            winYear = record.year;
-            return winYear;
+            console.log(record.result);
+            return record.year;
         }
     });
-
-    return winYear;
 }

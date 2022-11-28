@@ -6,7 +6,7 @@ function superbowlWin(records) {
         if (record.result === "W"){
             console.log(record.year);
             winYear = record.year;
-            return winYear;
+            break;
         }
     });
 
